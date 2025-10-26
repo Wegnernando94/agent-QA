@@ -1,0 +1,14 @@
+# Exclui dependências
+node_modules/
+
+# Exclui arquivos de resultados de teste e relatórios
+/test-results
+/playwright-report
+
+# Exclui configurações pessoais e dados de autenticação do Gemini
+# O arquivo settings.json e outras configs do usuário estão aqui
+.gemini/
+
+# Excluir configurações pessoais (prompt de memória ou rascunho local)
+# Assumindo que 'prompt agente' é o nome de um arquivo ou diretório local temporário
+/prompt agente
