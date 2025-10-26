@@ -4,7 +4,7 @@ Crie um Plano de Agente para executar o Teste E2E completo a seguir, priorizando
 
 ### Teste Funcional (Etapas)
 
-1.  **Login:** Execute o processo completo de login na URL `http://webapps01.acom.net.br:3003/` (Entidade: `2020153`, Usuário: `admin`, Senha: `everfs`).
+1.  **Login:** Execute o processo completo de login na URL `http://globo.com` (Entidade: `teste`, Usuário: `teste`, Senha: `teste`).
 2.  **Acesso ao Menu:** Clique no item de menu **"Suprimentos"**.
 3.  **Pesquisa:** Clique no ícone de pesquisa (lupa) para abrir a interface de pesquisa.
 4.  **Seleção de Itens:** Selecione **dois itens** aleatórios usando as caixas de seleção (checkboxes).

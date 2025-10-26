@@ -12,3 +12,6 @@ node_modules/
 # Excluir configurações pessoais (prompt de memória ou rascunho local)
 # Assumindo que 'prompt agente' é o nome de um arquivo ou diretório local temporário
 /prompt agente
+
+#Remover o GEMINI
+/GEMINI
