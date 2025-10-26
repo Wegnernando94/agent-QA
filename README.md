@@ -1,4 +1,5 @@
-🤖 Agente Gemini QA com Playwright MCP
+# 🤖Agente Gemini QA com Playwright MCP
+
 Este repositório contém as configurações e o contexto necessário para executar testes E2E avançados na aplicação web alvo, utilizando o Gemini Code Assist (Modo Agente) em conjunto com o Playwright Model Context Protocol (MCP).
 
 O agente é configurado para realizar testes funcionais, de regressão (datas/variáveis) e de qualidade de interface (responsividade/a11y/XSS) automaticamente.
@@ -23,23 +24,30 @@ Passo 1.1: Clonar o Repositório
 Bash
 
 # 1. Clone este repositório para sua máquina
-git clone <URL-DO-SEU-REPOSITÓRIO>
-
-# 2. Acesse o diretório do projeto
+```bash
 cd gemini-agente-e2e
+```
+# 2. Acesse o diretório do projeto
+```bash
+cd gemini-agente-e2e
+```
 Passo 1.2: Instalar Ferramentas Essenciais
 Instale o Gemini CLI (globalmente) e as dependências locais (Playwright MCP) definidas no package.json.
 
 Bash
 
 # Instala o Gemini CLI (se já não estiver instalado)
+```bash
 npm install -g @google/gemini-cli@latest
-
+```
 # Instala as dependências do Playwright MCP
+```bash
 npm install
-
+```
 # Instala os binários dos navegadores (Chromium, Firefox, WebKit)
+```bash
 npx playwright install
+```
 Passo 1.3: Autenticação do Gemini
 Na primeira vez que usar o gemini na sua máquina, você deve autenticar:
 
@@ -60,8 +68,7 @@ Conteúdo do settings.json:
 
 Cole o seguinte código. Ele configura o Playwright MCP e remove o modo headless (--headless) para que você possa ver a execução:
 
-JSON
-
+```json
 {
   "mcpServers": {
     "playwright": {
@@ -78,6 +85,8 @@ JSON
     }
   }
 }
+```
+
 Passo 2.2: Contexto do Agente (GEMINI.md)
 O arquivo GEMINI.md na raiz deste projeto contém todo o contexto do teste complexo. O agente o lerá automaticamente para entender os seletores (como o seletor do botão "Inventário") e as regras de teste avançadas.
 
