@@ -48,13 +48,12 @@ npm install
 ```bash
 npx playwright install
 ```
+# Rode o Gemini para autenticação
+```bash
+Digite "Gemini" no seu cmd
+```
 Passo 1.3: Autenticação do Gemini
 Na primeira vez que usar o gemini na sua máquina, você deve autenticar:
-
-Bash
-
-gemini
-Siga as instruções para fazer login com sua Conta Google.
 
 🛠️ 2. Configuração do Agente e do MCP
 Para que o Gemini use o Playwright, ele precisa de um arquivo de configuração.
